@@ -1,0 +1,55 @@
+h1{
+    color:red ; /* The color CSS property sets the foreground color value of an element's text and text decorations, and sets the currentcolor value. */
+}
+
+
+
+p,li{ /* The comma combinator (,) represents a selector that is the concatenation of two other selectors. It matches the union of the two sets of elements. */
+    color: blue;
+
+}
+
+li{
+    list-style-type: "\1F44D";  /* The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.*/
+}
+
+.special{ /* The class selector selects elements with a specific class attribute. */
+    color: orange;
+    font-weight: bold; /* The font-weight CSS property sets the weight (or boldness) of the font. */
+}
+
+li em { /* The descendant combinator — typically represented by a single space ( ) character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor element matching the first selector. */
+    color: black;
+}
+
+h1 + p { /* The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. */
+    font-size: 200%;
+}
+
+a:link { /* The :link CSS pseudo-class represents an element that has not yet been visited. It matches every unvisited <a> or <area> element that has an href attribute. */
+    color: pink;
+    text-decoration: none; /* The text-decoration CSS property sets the appearance of decorative lines on text. */
+}
+
+a:visited { /* The :visited CSS pseudo-class represents links that the user has already visited. It matches elements that have been visited. */
+    color: green;
+}
+a:hover { /* The :hover CSS pseudo-class matches when the user designates an element with a pointing device, but does not necessarily activate it. */
+    color: red;
+}
+
+.box {
+  margin: 30px; /* The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left. */
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn); /* The transform CSS property lets you rotate, scale, skew, or translate an element. */
+}
+
+@media (min-width: 70em) {
+    /* Increase the global font size on larger screens or windows
+       for better readability */
+    body {
+      font-size: 130%;
+    }
+  }
