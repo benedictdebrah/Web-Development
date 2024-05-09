@@ -66,7 +66,7 @@
   .ui-icon {
     height: 25px;
     cursor: pointer;
-}
+  }
   
   /* ============================= GLOBAL STYLE ENDS =============================== */
   
@@ -108,7 +108,7 @@
     align-self: center;
     height: 20px;
     filter: invert(100%);
-}
+  }
   
   .login-info {
     display: flex;
@@ -234,7 +234,7 @@
   
   .project-card-container {
     display: grid;
-    grid-template-rows: auto 1fr 1fr 1fr ;
+    grid-template-rows: auto 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     padding-right: 25px;
@@ -285,7 +285,7 @@
   
   .project-nav .ui-icon {
     height: 20px;
-    filter: invert(100%);
+   
   }
   
   .side-container {
